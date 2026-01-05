@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+ <!--HEADER -->
+  <header class="header">
+  <div class="container nav">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  </header>
+
+  <!--HERO  -->
+  <section class="hero" id="home">
+     <h1 class="hero-title">
+       HELLO, I AM  <span id="name-highlight">RIDDHI GOSAVI...</span>
+    </h1>
+
+
+    <p> 'I’m a first-year Software Development student who loves learning new technologies by working on real projects and experimenting with ideas.”</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <div class="hero-socials">
+      <a href="https://github.com/ridhi-ship-it" target="_blank"><i class="fa-brands fa-github"></i><span>GitHub</span> </a>
+      <a href="https://www.linkedin.com/in/riddhi-gosavi-425710391/ target="_blank"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+      <a href="mailto:riddhidattaramgosavi@gmail.com
+"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+    </div>
+
+  </section>
+
+  <!--ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-box">
+    
+      <div class="about-text">
+         <h2>About Me</h2>
+         <p> Hi, I’m <strong>Riddhi</strong>, a Software development student who loves building clean, responsive and user-friendly websites. I focus on modern layouts, accessibility and performance.</p>
+         <p>I enjoy working on modern layouts and focusing on accessibility and performance to create smooth user experiences. I’m always eager to learn new technologies, improve my skills, and turn ideas into well-designed digital solutions.</p>
+         <p>Currently learning Bootstrap for faster responsive layouts.</p>
+
+
+          <div class="about-points">
+          <div>✔ Clean & Modern UI</div>
+          <div>✔ Responsive Layouts</div>
+          <div>✔ Beginner-friendly Code</div>
+          <div>✔ Continuous Learning</div>
+      </div> 
+
+    </div>
+  </section>
+
+  <!--SKILLS-->
+  <section class="skills-section" id="skills">
+    <div class="container">
+     <section class="skills-section">
+      <div class="container">
+        <h2 class="skills-title" align="center">Skills</h2>
+        <p class="skills-subtitle">Technologies and concepts I use while building websites</p>
+       <div class="skills-list">
+
+      <div class="skill-row">
+        <div class="skill-head">
+          <span>HTML</span>
+          <small>80%</small>
+        </div>
+        <div class="bar">
+          <div style="width: 90%"></div>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-head">
+          <span>CSS</span>
+          <small>70%</small>
+        </div>
+        <div class="bar">
+          <div style="width: 85%"></div>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-head">
+          <span>Responsive Design</span>
+          <small>75%</small>
+        </div>
+        <div class="bar">
+          <div style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-head">
+          <span>Bootstrap</span>
+          <small>60%</small>
+        </div>
+        <div class="bar">
+          <div style="width: 70%"></div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--PROJECTS -->
+  <section class="projects" id="projects">
+     <div class="container">
+       <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <div class="project-card portfolio">
+             <h3>Portfolio Website</h3>
+             <p>Personal responsive portfolio using HTML & CSS.</p>
+          </div>
+
+          <div class="project-card landing">
+             <h3>Landing Page</h3>
+             <p>Modern landing page with grid layout.</p>
+          </div>
+          <div class="project-card auth">
+            <h3>Login and Registration</h3>
+             <p>Login & signup UI with form validation using JavaScript.</p>
+          </div>
+          <div class="project-card shop">
+            <h3>Petal Paradise</h3>
+            <p>Responsive flower shop website with elegant design and layout.</p>
+          </div>
+        </div>
+        <details class="project-dropdown">
+         <summary class="btn">View Projects ⟶</summary>
+
+         <div class="dropdown-menu">
+          <a href="#">Portfolio Website</a>
+          <a href="https://ridhi-ship-it.github.io/login-and-registration/" target="_blank">
+            Login And Registration
+          </a>
+          <a href="https://ridhi-ship-it.github.io/petal-paradise-/" target="_blank">
+            Petal Paradise
+          </a>
+         </div>
+         </details>
+      </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container grid-2">
+      <div>
+        <h2>Thinking about your next project?</h2>
+        <p>Let’s collaborate to turn ideas into refined and reliable outcomes.</p>
+      <p>I would be glad to connect and collaborate on projects that value quality and thoughtful execution.</p>
+      </div>
+
+       <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn">Send Message</button>
+       </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 My Portfolio | Designed by Riddhi</p>
+  </footer>
+
+</body>
+</html>
